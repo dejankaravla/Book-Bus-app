@@ -1,0 +1,45 @@
+.Authors {
+  background: burlywood;
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.AuthorsAll {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  background-color: brown;
+  border-radius: 5px;
+  align-items: center;
+  padding: 20px;
+}
+.Authors img {
+  height: 150px;
+  border-radius: 5px;
+}
+.UrlLinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.Authors a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  width: 100px;
+  margin: auto;
+  background: teal;
+  border-radius: 5px;
+  border: 1px black solid;
+  outline: none;
+  font-size: 12px;
+}

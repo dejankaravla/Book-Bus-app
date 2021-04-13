@@ -1,0 +1,73 @@
+.Nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  background: cadetblue;
+}
+
+.Nav img {
+  height: 70px;
+}
+
+.AllLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.Nav a:hover {
+  background: black;
+}
+
+.SerachBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.Nav input {
+  border-radius: 10px;
+  border: 1px black solid;
+  outline: none;
+  height: 30px;
+  width: 300px;
+  font-size: 17px;
+}
+
+.Nav input::placeholder {
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+.Nav select {
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px black solid;
+}
+
+.Nav option {
+  border-bottom: 5px;
+}
+
+.Nav select:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+  background: black;
+}
