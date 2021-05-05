@@ -1,3 +1,18 @@
+# About House of Books app
+
+House of Books is small and simple app that gives information about books and authors.
+In this app you can search books and see description, when the book is first published, first sentence, description and cover.
+You can also search writers and see name, photo, birth date, death date, biography and all the books from searched writer that are published.
+Also, you have some suggested writers and books that you can browse and see info.
+
+# About Development
+
+I used pretty messy and slow API and turned into useable website with a large database about books and authors. API documentation gives you search option but the data that I get is when searching is wrong. If you search writer, you get some random big chunk of data and you can not display anything. I found the solution and now when you search writer, the app search and extract the id of the writer. Then the app search again, but with that extracted id. The next problem was that some of the writers have multiple ids stored in an array or in object and some do not have an id at all.
+The database is messy and you never know what you will get. I had to write a lot of if else and type checks.
+Search speed was another problem. For 100 books, the app needed 37 seconds to get the data. I managed to optimise my code and with the few modifications, the app now needs 6 seconds to get 220 books and more.
+Using this API was a challenge
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
